@@ -1,0 +1,96 @@
+{
+  "name": "vue-materials",
+  "type": "vue",
+  "blocks": [
+    {
+      "name": "d2-crud",
+      "title": "D2Crud复杂示例",
+      "source": {
+        "type": "npm",
+        "npm": "@d2-projects/d2-crud-ice-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@d2-projects/d2-crud": "^1.1.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "http://qiniucdn.fairyever.com/20180907163652.png",
+      "categories": [
+        "表格"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于Element的表格封装复杂示例",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/D2Crud",
+      "publishTime": "2018-12-13T08:15:08.150Z",
+      "updateTime": "2018-12-13T08:15:14.432Z"
+    },
+    {
+      "name": "greeting-block",
+      "title": "示例区块",
+      "source": {
+        "type": "npm",
+        "npm": "@icedesign/greeting-block-example",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8",
+        "@alifd/next": "^1.11.2"
+      },
+      "screenshot": "https://unpkg.com/@icedesign/greeting-block-example/screenshot.png",
+      "categories": [
+        "其他"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "示例区块",
+      "publishTime": "2018-12-09T12:58:42.045Z",
+      "updateTime": "2019-01-12T07:13:28.813Z"
+    }
+  ],
+  "layouts": [],
+  "scaffolds": [
+    {
+      "name": "next-lite",
+      "title": "基础模板",
+      "source": {
+        "type": "npm",
+        "npm": "@icedesign/next-lite-scaffold",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com"
+      },
+      "builder": "ice-scripts",
+      "dependencies": {
+        "@alifd/next": "^1.10.1",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-router-dom": "^4.2.2"
+      },
+      "devDependencies": {
+        "babel-eslint": "^8.0.3",
+        "eslint": "^4.13.1",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-babel": "^4.1.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.5.1",
+        "ice-scripts": "^1.6.7"
+      },
+      "screenshot": "https://unpkg.com/@icedesign/next-lite-scaffold/screenshot.png",
+      "categories": [
+        "基础模板"
+      ],
+      "features": {},
+      "description": "用于自定义模板",
+      "publishTime": "2018-12-09T13:00:25.372Z",
+      "updateTime": "2019-01-12T07:14:44.374Z"
+    }
+  ]
+}
